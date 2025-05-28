@@ -1,0 +1,35 @@
+//What is an Object in JavaScript:
+
+//In JavaScript, an object is a collection of key-value pairs. 
+//These keys (also known as properties) are always strings or symbols, and the values can be anything
+ //numbers, strings, functions, or even other objects
+ 
+ //Here’s a simple example:
+
+           
+let person = { 
+             name:  "karthick",
+
+              age:  23,
+        
+            gender:  "male",
+
+          address:  "chennai,tamilNadu,india",
+          siblings:{
+            brother: "manikandan",
+            sister: "priya"
+          }
+}
+console.log(person.name);// Output: "karthick"
+console.log(person.age); // Output: 23
+console.log(person.gender);// Output:male "
+console.log(person.address);// Output: "chennai,tamilNadu,india"
+
+//two ways to access the properties of an object:
+//1. Dot notation
+console.log(person.name); // Output: "karthick"
+//2. Bracket notation
+console.log(person['age']); // Output: 23
+//siblings
+console.log(person.siblings.brother); // Output: "manikandan"
+console.log(person.siblings.sister); // Output: "priya"
